@@ -26,6 +26,36 @@ sqlcsv -d test/data
 pyinstaller sqlcsv.spec
 ```
 
+## Interactive mode help
+
+```sh
+Usage interactive: 
+   sqlcsv 
+   sqlcsv [root_dir]
+Script Mode:
+   sqlcsv [root_dir] [sql_script]
+
+Commands:
+ load [file|directory]: load the file or the files in the directory
+                        into the database (csv, xls, xlsx)
+ list                 : give the list of tables loaded
+ commit_files         : additionally to commit in SQLLite,
+                        save the modifications in the csv or excel files
+ list_changes         : list modified tables
+                        commit_files would save changes to files
+ output               : switch output to pretty print, csv or html
+     [pretty|csv|html]
+ spool [file_name]    : switch the output to a file
+ desc [table_name]    : describe a table in SQLlite3
+ exit                 : quit the program
+ Ctrl-C               : clear prompt
+ Ctrl-D               : quit the program
+ arrows UP            : navigate though history
+ arrows RIGHT         : complete from history
+ arrows DOWN          : complete from dictionary
+ help                 : show this message
+```
+
 ## Author
 
 👤 **Thierry.M**
