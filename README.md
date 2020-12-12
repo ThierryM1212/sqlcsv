@@ -1,5 +1,4 @@
 <h1 align="center">Welcome to csvsql 👋</h1>
-<p>[Download exe](https://github.com/ThierryM1212/sqlcsv/raw/master/dist/sqlcsv.exe)</p>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -8,6 +7,7 @@
 </p>
 
 > Command line tool to manipulate csv and excel files through SQL
+<br>[Download exe](https://github.com/ThierryM1212/sqlcsv/raw/master/dist/sqlcsv.exe)
 
 ## Usage
 
