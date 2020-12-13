@@ -6,8 +6,12 @@
   </a>
 </p>
 
-> Command line tool to manipulate csv and excel files through SQL
+> Interactive command line tool to manipulate csv and excel files through SQL
 <br>[Download exe](https://github.com/ThierryM1212/sqlcsv/raw/master/dist/sqlcsv.exe)
+<br>The tool allows you to load csv and/or excel files from a directory in an inmemory database (SQLlite3) and then manipulate the data using SQL.
+<br>All SQLlite3 feature supported to update, join, aggregate the data.
+<br>The commit of the modification update the csv/excel files.
+
 
 ## Usage
 
