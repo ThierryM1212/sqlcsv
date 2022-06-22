@@ -7,7 +7,7 @@ fuzzyfinder==2.1.0
 idna==2.9
 jdcal==1.4.1
 keyboard==0.13.5
-numpy==1.18.4
+numpy==1.22.0
 openpyxl==3.0.3
 pandas==1.0.4
 pefile==2019.4.18
